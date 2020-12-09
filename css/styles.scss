@@ -55,6 +55,11 @@ body {
             background-color: white;
         }
 
+        &-img:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
         &-tittle {
             margin-top: 2rem;
             font-size: 1.8rem;
@@ -83,8 +88,17 @@ body {
             margin-top: 2rem;
             margin-bottom: 2rem;
 
+            h3 {
+                font-size: 2rem;
+            }
+
+            h3:hover {
+                color: var(--dark-grayish-blue)
+            }
+
             p {
                 letter-spacing: 1px;
+                color: var(--dark-gray);
             }
         }
     }
