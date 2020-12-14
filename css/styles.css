@@ -70,6 +70,8 @@ body {
   border-radius: 50%;
   margin-top: calc(-48px - 6px);
   background-color: white;
+  -webkit-transition: ease .2s;
+  transition: ease .2s;
 }
 
 .card-body-img:hover {
